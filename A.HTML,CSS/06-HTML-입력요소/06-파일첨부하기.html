@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form enctype="multipart/form-data">
+      <fieldset>
+        <legend>파일첨부</legend>
+        <div>
+          <label for="photo">사진선택</label>
+          <input type="file" name="photo" id="photo" />
+        </div>
+      </fieldset>
+    </form>
+
+    <form name="form1" method="get" action="https://www.naver.com">
+      <fieldset>
+        <legend>이름 입력하기</legend>
+        <div>
+          <label for="user_name">이름 : </label>
+          <input type="text" name="user_name" id="user_name" />
+        </div>
+        <div>
+          <input type="submit" value="입력완료" />
+          <input type="reset" value="다시작성" />
+          <input type="button" value="일반작성" id="helloworld" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
